@@ -8,15 +8,14 @@ import { fadeInUp } from '@/lib/motionConfig'
 import Timeline from '@/components/Timeline'
 
 export default function ChiSonoPage() {
-  // Image can be added later via props or static import
-  const imageUrl = undefined
+  const imageUrl = undefined // Placeholder per futura immagine
   const imageAlt = 'Dott. Mario Colombo'
   return (
     <div className="section-padding bg-white">
       <div className="container-custom">
         {/* Hero Section - Chi Sono */}
         <motion.section
-          className="max-w-6xl mx-auto mb-24"
+          className="max-w-6xl mx-auto mb-12 sm:mb-16 md:mb-20 lg:mb-24"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -32,8 +31,8 @@ export default function ChiSonoPage() {
                 }}
               />
               
-              <div className="p-8 md:p-12">
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 items-start">
+              <div className="p-6 sm:p-8 md:p-10 lg:p-12">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12 items-start">
                   {/* Immagine */}
                   <motion.div
                     className="lg:col-span-1"
@@ -77,12 +76,12 @@ export default function ChiSonoPage() {
                     animate="visible"
                     transition={{ duration: 0.5, delay: 0.3 }}
                   >
-                    <h1 className="heading-1 mb-6">Dott. Mario Colombo</h1>
-                    <div className="mb-6">
-                      <p className="text-xl text-text-muted font-medium mb-4">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-4 sm:mb-6">Dott. Mario Colombo</h1>
+                    <div className="mb-4 sm:mb-6">
+                      <p className="text-lg sm:text-xl text-text-muted font-medium mb-3 sm:mb-4">
                         Specialista in Ginecologia e Ostetricia
                       </p>
-                      <p className="text-lg text-primary font-semibold">
+                      <p className="text-base sm:text-lg text-primary font-semibold">
                         Oltre 35 anni di esperienza nella cura della salute femminile
                       </p>
                     </div>
@@ -93,13 +92,13 @@ export default function ChiSonoPage() {
                         la paziente, la sua storia clinica e le sue necessità specifiche. Credo fermamente in 
                         una medicina che ascolti la paziente, che dedichi il tempo necessario alla comprensione 
                         del problema e che offra soluzioni personalizzate basate sulle più recenti evidenze 
-                        scientifiche, senza mai dimenticare l&apos;aspetto umano della relazione medico-paziente.
+                        scientifiche, senza mai dimenticare l'aspetto umano della relazione medico-paziente.
                       </p>
                       <p className="text-text-muted leading-relaxed">
-                        Nel corso della mia carriera ho avuto l&apos;opportunità di ricoprire ruoli di responsabilità 
+                        Nel corso della mia carriera ho avuto l'opportunità di ricoprire ruoli di responsabilità 
                         in strutture ospedaliere, gestendo équipe mediche e assistendo migliaia di pazienti. 
-                        Oggi esercito la libera professione presso due sedi nell&apos;area metropolitana milanese, 
-                        continuando a dedicarmi con passione alla ginecologia clinica, all&apos;ostetricia e alle 
+                        Oggi esercito la libera professione presso due sedi nell'area metropolitana milanese, 
+                        continuando a dedicarmi con passione alla ginecologia clinica, all'ostetricia e alle 
                         consulenze medico-legali.
                       </p>
                     </div>
@@ -119,9 +118,9 @@ export default function ChiSonoPage() {
         </motion.section>
 
         {/* Formazione */}
-        <section className="max-w-5xl mx-auto mb-20">
+        <section className="max-w-5xl mx-auto mb-12 sm:mb-16 md:mb-20">
           <motion.div
-            className="flex items-center space-x-3 mb-12"
+            className="flex items-center space-x-3 mb-8 sm:mb-10 md:mb-12"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -159,9 +158,9 @@ export default function ChiSonoPage() {
         </section>
 
         {/* Esperienza Professionale */}
-        <section className="max-w-5xl mx-auto mb-20">
+        <section className="max-w-5xl mx-auto mb-12 sm:mb-16 md:mb-20">
           <motion.div
-            className="flex items-center space-x-3 mb-12"
+            className="flex items-center space-x-3 mb-8 sm:mb-10 md:mb-12"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -206,9 +205,9 @@ export default function ChiSonoPage() {
         </section>
 
         {/* Competenze Specialistiche */}
-        <div className="max-w-4xl mx-auto mb-16">
-          <h2 className="heading-2 mb-8">Competenze Specialistiche</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="max-w-4xl mx-auto mb-12 sm:mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold mb-6 sm:mb-8">Competenze Specialistiche</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             <Card title="Ginecologia" variant="outlined" padding="md">
               <ul className="space-y-2.5 text-text-muted text-sm">
                 <li className="flex items-start">
@@ -286,14 +285,14 @@ export default function ChiSonoPage() {
 
         {/* Formazione Continua */}
         <div className="max-w-4xl mx-auto">
-          <h2 className="heading-2 mb-8">Formazione Continua</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold mb-6 sm:mb-8">Formazione Continua</h2>
           <Card variant="gradient" padding="lg">
             <p className="text-text-muted mb-4">
               Partecipazione regolare a congressi nazionali e internazionali di ginecologia e ostetricia. 
               Aggiornamento costante su linee guida SIGO, ISS, NICE e best practice internazionali.
             </p>
             <p className="text-text-muted">
-              Mantenimento di competenze all&apos;avanguardia attraverso formazione continua e confronto 
+              Mantenimento di competenze all'avanguardia attraverso formazione continua e confronto 
               con la comunità scientifica nazionale e internazionale.
             </p>
           </Card>
@@ -302,4 +301,3 @@ export default function ChiSonoPage() {
     </div>
   )
 }
-
