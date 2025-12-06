@@ -107,7 +107,7 @@ export default function DoveRicevoPage() {
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-5 h-5 text-success mr-2 flex-shrink-0 mt-0.5" />
-                    <span>Sala d'attesa confortevole</span>
+                    <span>Sala d&apos;attesa confortevole</span>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="w-5 h-5 text-success mr-2 flex-shrink-0 mt-0.5" />
@@ -146,7 +146,7 @@ export default function DoveRicevoPage() {
                           02 4587 61
                         </a>
                         <p className="text-sm text-neutral mt-1">
-                          Richiedere "Ambulatorio Dott. Colombo - Ginecologia"
+                          Richiedere &quot;Ambulatorio Dott. Colombo - Ginecologia&quot;
                         </p>
                       </div>
                     </div>
@@ -239,7 +239,7 @@ export default function DoveRicevoPage() {
               <ul className="space-y-2.5 text-text-muted text-sm">
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-success mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Documento d'identità</span>
+                  <span>Documento d&apos;identità</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-success mr-2 flex-shrink-0 mt-0.5" />
@@ -272,7 +272,7 @@ export default function DoveRicevoPage() {
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-success mr-2 flex-shrink-0 mt-0.5" />
-                  <span>L'igiene intima normale è sufficiente</span>
+                  <span>L&apos;igiene intima normale è sufficiente</span>
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-success mr-2 flex-shrink-0 mt-0.5" />

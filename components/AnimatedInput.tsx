@@ -41,7 +41,7 @@ const AnimatedInput = forwardRef<HTMLInputElement, AnimatedInputProps>(
         </label>
         <motion.input
           ref={ref}
-          {...props}
+          {...(props as any)}
           className={`w-full px-4 py-3 border rounded-lg transition-all duration-200 focus:outline-none ${
             showError && error
               ? 'border-error focus:ring-2 focus:ring-error/20'

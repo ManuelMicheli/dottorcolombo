@@ -63,7 +63,8 @@ export default function ContactForm() {
   if (submitStatus === 'success') {
     return (
       <motion.div
-        className="card bg-success/10 border-success"
+        className="bg-white rounded-2xl border border-success p-8 shadow-sm"
+        style={{ backgroundColor: 'rgba(56, 161, 105, 0.05)' }}
         variants={prefersReducedMotion ? {} : scaleIn}
         initial="hidden"
         animate="visible"
@@ -141,7 +142,7 @@ export default function ContactForm() {
     >
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="card"
+        className="bg-white rounded-2xl border border-border-subtle p-8 shadow-sm"
       >
       <AnimatePresence>
         {submitStatus === 'error' && (
@@ -153,7 +154,7 @@ export default function ContactForm() {
           >
             <AlertCircle className="w-5 h-5 text-error flex-shrink-0 mt-0.5" />
             <div>
-              <p className="text-error font-semibold">Errore nell'invio</p>
+              <p className="text-error font-semibold">Errore nell&apos;invio</p>
               <p className="text-sm text-text-muted">Si è verificato un errore. Riprova o contattaci telefonicamente.</p>
             </div>
           </motion.div>
@@ -267,12 +268,12 @@ export default function ContactForm() {
             id="privacy"
             type="checkbox"
             {...register('privacy', {
-              required: 'È necessario accettare l\'informativa privacy',
+              required: 'È necessario accettare l&apos;informativa privacy',
             })}
             className="mt-1 mr-3 w-5 h-5 text-primary focus:ring-primary"
           />
           <label htmlFor="privacy" className="text-sm text-neutral">
-            Ho letto e accetto l'<a href="/privacy-policy" className="text-primary hover:underline font-semibold">informativa privacy</a>{' '}
+            Ho letto e accetto l&apos;<a href="/privacy-policy" className="text-primary hover:underline font-semibold">informativa privacy</a>{' '}
             <span className="text-error">*</span>
           </label>
         </div>
@@ -288,7 +289,7 @@ export default function ContactForm() {
             className="mt-1 mr-3 w-5 h-5 text-primary focus:ring-primary"
           />
           <label htmlFor="marketing" className="text-sm text-neutral">
-            Acconsento all'invio di comunicazioni promozionali (facoltativo)
+            Acconsento all&apos;invio di comunicazioni promozionali (facoltativo)
           </label>
         </div>
       </div>

@@ -7,12 +7,10 @@ import { motion } from 'framer-motion'
 import { fadeInUp } from '@/lib/motionConfig'
 import Timeline from '@/components/Timeline'
 
-interface ChiSonoHeroProps {
-  imageUrl?: string
-  imageAlt?: string
-}
-
-export default function ChiSonoPage({ imageUrl, imageAlt = 'Dott. Mario Colombo' }: ChiSonoHeroProps) {
+export default function ChiSonoPage() {
+  // Image can be added later via props or static import
+  const imageUrl = undefined
+  const imageAlt = 'Dott. Mario Colombo'
   return (
     <div className="section-padding bg-white">
       <div className="container-custom">
@@ -95,13 +93,13 @@ export default function ChiSonoPage({ imageUrl, imageAlt = 'Dott. Mario Colombo'
                         la paziente, la sua storia clinica e le sue necessità specifiche. Credo fermamente in 
                         una medicina che ascolti la paziente, che dedichi il tempo necessario alla comprensione 
                         del problema e che offra soluzioni personalizzate basate sulle più recenti evidenze 
-                        scientifiche, senza mai dimenticare l'aspetto umano della relazione medico-paziente.
+                        scientifiche, senza mai dimenticare l&apos;aspetto umano della relazione medico-paziente.
                       </p>
                       <p className="text-text-muted leading-relaxed">
-                        Nel corso della mia carriera ho avuto l'opportunità di ricoprire ruoli di responsabilità 
+                        Nel corso della mia carriera ho avuto l&apos;opportunità di ricoprire ruoli di responsabilità 
                         in strutture ospedaliere, gestendo équipe mediche e assistendo migliaia di pazienti. 
-                        Oggi esercito la libera professione presso due sedi nell'area metropolitana milanese, 
-                        continuando a dedicarmi con passione alla ginecologia clinica, all'ostetricia e alle 
+                        Oggi esercito la libera professione presso due sedi nell&apos;area metropolitana milanese, 
+                        continuando a dedicarmi con passione alla ginecologia clinica, all&apos;ostetricia e alle 
                         consulenze medico-legali.
                       </p>
                     </div>
@@ -295,7 +293,7 @@ export default function ChiSonoPage({ imageUrl, imageAlt = 'Dott. Mario Colombo'
               Aggiornamento costante su linee guida SIGO, ISS, NICE e best practice internazionali.
             </p>
             <p className="text-text-muted">
-              Mantenimento di competenze all'avanguardia attraverso formazione continua e confronto 
+              Mantenimento di competenze all&apos;avanguardia attraverso formazione continua e confronto 
               con la comunità scientifica nazionale e internazionale.
             </p>
           </Card>

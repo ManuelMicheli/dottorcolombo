@@ -100,7 +100,9 @@ export default function ContattiPage() {
           {/* Form di Contatto */}
           <section className="mb-16">
             <h2 className="heading-2 mb-8">Invia una Richiesta</h2>
-            <ContactForm />
+            <div className="bg-white rounded-2xl">
+              <ContactForm />
+            </div>
           </section>
 
           {/* Contatti Diretti */}

@@ -357,7 +357,7 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="heading-2 mb-6">Consulenze Medico-Legali</h2>
             <p className="text-body mb-8">
-              Offro consulenze tecniche d'ufficio (CTU) e di parte in ambito ginecologico-ostetrico 
+              Offro consulenze tecniche d&apos;ufficio (CTU) e di parte in ambito ginecologico-ostetrico 
               per tribunali e studi legali. Oltre 35 anni di esperienza clinica al servizio della 
               giustizia e della valutazione peritale.
             </p>

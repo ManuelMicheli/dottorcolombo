@@ -194,7 +194,7 @@ export default function PeriziePage() {
             padding="lg"
           >
             <p className="text-body mb-6">
-              La Consulenza Tecnica d'Ufficio è l'incarico conferito dal Giudice a un medico esperto per 
+              La Consulenza Tecnica d&apos;Ufficio è l&apos;incarico conferito dal Giudice a un medico esperto per 
               chiarire aspetti tecnici di una controversia giudiziaria.
             </p>
             
@@ -255,7 +255,7 @@ export default function PeriziePage() {
             padding="lg"
           >
             <p className="text-body mb-6">
-              Il Consulente Tecnico di Parte assiste l'avvocato e il cliente nella valutazione del caso e 
+              Il Consulente Tecnico di Parte assiste l&apos;avvocato e il cliente nella valutazione del caso e 
               nella dialettica con il CTU nominato dal Giudice.
             </p>
             
@@ -288,7 +288,7 @@ export default function PeriziePage() {
                 </li>
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 text-success mr-2 flex-shrink-0 mt-0.5" />
-                  <span>Supporto all'avvocato nella preparazione del caso</span>
+                  <span>Supporto all&apos;avvocato nella preparazione del caso</span>
                 </li>
               </ul>
             </div>
@@ -309,7 +309,7 @@ export default function PeriziePage() {
             <ul className="space-y-2.5 text-text-muted mb-6">
               <li className="flex items-start">
                 <CheckCircle className="w-5 h-5 text-success mr-2 flex-shrink-0 mt-0.5" />
-                <span>Studi legali che valutano l'avvio di contenziosi</span>
+                <span>Studi legali che valutano l&apos;avvio di contenziosi</span>
               </li>
               <li className="flex items-start">
                 <CheckCircle className="w-5 h-5 text-success mr-2 flex-shrink-0 mt-0.5" />
@@ -370,7 +370,7 @@ export default function PeriziePage() {
                 <li>• Danni da parto (asfissia perinatale, trauma ostetrico)</li>
                 <li>• Paralisi ostetrica (paralisi di Erb, lesioni plesso brachiale)</li>
                 <li>• Sofferenza fetale non riconosciuta</li>
-                <li>• Ritardi nell'espletamento del parto</li>
+                <li>• Ritardi nell&apos;espletamento del parto</li>
                 <li>• Lacerazioni sfinteriche (III-IV grado)</li>
                 <li>• Complicanze emorragiche post-partum</li>
               </ul>
