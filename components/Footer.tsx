@@ -6,8 +6,8 @@ export default function Footer() {
 
   return (
     <footer className="bg-primary text-text-inverse" style={{ backgroundColor: 'var(--mc-primary)', color: 'var(--mc-text-inverse)' }}>
-      <div className="container-custom py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="container-custom py-8 sm:py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10">
           {/* Colonna 1 - Info */}
           <div>
             <h3 className="font-serif text-xl font-semibold mb-4 text-text-inverse" style={{ color: 'var(--mc-text-inverse)' }}>

@@ -43,16 +43,16 @@ export default function HomePage() {
         />
         <div className="container-custom relative z-10">
           <div className="max-w-3xl">
-            <h1 className="heading-1 mb-6" style={{ color: 'var(--mc-text-inverse)' }}>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-4 sm:mb-6" style={{ color: 'var(--mc-text-inverse)' }}>
               Dott. Mario Colombo
             </h1>
-            <p className="text-2xl md:text-3xl font-serif font-semibold mb-4" style={{ color: 'var(--mc-text-inverse)' }}>
+            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-serif font-semibold mb-3 sm:mb-4" style={{ color: 'var(--mc-text-inverse)' }}>
               Specialista in Ginecologia e Ostetricia
             </p>
-            <p className="text-xl md:text-2xl mb-8 opacity-90" style={{ color: 'var(--mc-text-inverse)' }}>
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 opacity-90 leading-relaxed" style={{ color: 'var(--mc-text-inverse)' }}>
               Oltre 35 anni di esperienza al servizio della salute femminile a Milano
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <Link 
                 href="/contatti" 
                 className="btn-primary bg-bg-surface text-primary hover:bg-bg-alt"
@@ -357,7 +357,7 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="heading-2 mb-6">Consulenze Medico-Legali</h2>
             <p className="text-body mb-8">
-              Offro consulenze tecniche d&apos;ufficio (CTU) e di parte in ambito ginecologico-ostetrico 
+              Offro consulenze tecniche d'ufficio (CTU) e di parte in ambito ginecologico-ostetrico 
               per tribunali e studi legali. Oltre 35 anni di esperienza clinica al servizio della 
               giustizia e della valutazione peritale.
             </p>

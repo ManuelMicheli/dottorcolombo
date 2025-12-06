@@ -51,7 +51,7 @@ export default function PrivacyPolicyPage() {
                 <li>Gestire le prenotazioni di visite mediche</li>
                 <li>Fornire informazioni sui servizi offerti</li>
                 <li>Adempiere agli obblighi di legge</li>
-                <li>Migliorare l&apos;esperienza di navigazione del sito</li>
+                <li>Migliorare l'esperienza di navigazione del sito</li>
                 <li>Analisi statistiche anonime del traffico (con consenso)</li>
               </ul>
             </section>
@@ -62,7 +62,7 @@ export default function PrivacyPolicyPage() {
                 Il trattamento dei dati personali si basa su:
               </p>
               <ul className="list-disc list-inside space-y-2 text-body">
-                <li>Consenso dell&apos;interessato</li>
+                <li>Consenso dell'interessato</li>
                 <li>Esecuzione di un contratto o misure precontrattuali</li>
                 <li>Adempimento di obblighi di legge</li>
                 <li>Legittimo interesse del titolare</li>
@@ -80,7 +80,7 @@ export default function PrivacyPolicyPage() {
                 <li>Autorità competenti in caso di obblighi di legge</li>
               </ul>
               <p className="text-body mt-4">
-                I dati non saranno mai ceduti a terzi per finalità commerciali senza il consenso esplicito dell&apos;interessato.
+                I dati non saranno mai ceduti a terzi per finalità commerciali senza il consenso esplicito dell'interessato.
               </p>
             </section>
 
@@ -97,12 +97,12 @@ export default function PrivacyPolicyPage() {
             </section>
 
             <section>
-              <h2 className="heading-3 mb-4">7. Diritti dell&apos;Interessato</h2>
+              <h2 className="heading-3 mb-4">7. Diritti dell'Interessato</h2>
               <p className="text-body mb-4">
-                Ai sensi del Regolamento UE 2016/679 (GDPR), l&apos;interessato ha diritto a:
+                Ai sensi del Regolamento UE 2016/679 (GDPR), l'interessato ha diritto a:
               </p>
               <ul className="list-disc list-inside space-y-2 text-body">
-                <li><strong>Accesso:</strong> ottenere conferma dell&apos;esistenza dei propri dati e accedervi</li>
+                <li><strong>Accesso:</strong> ottenere conferma dell'esistenza dei propri dati e accedervi</li>
                 <li><strong>Rettifica:</strong> ottenere la correzione di dati inesatti o incompleti</li>
                 <li><strong>Cancellazione:</strong> ottenere la cancellazione dei propri dati</li>
                 <li><strong>Limitazione:</strong> ottenere la limitazione del trattamento</li>
@@ -115,7 +115,7 @@ export default function PrivacyPolicyPage() {
             <section>
               <h2 className="heading-3 mb-4">8. Modalità di Esercizio dei Diritti</h2>
               <p className="text-body">
-                Per esercitare i propri diritti, l&apos;interessato può contattare il titolare del trattamento:
+                Per esercitare i propri diritti, l'interessato può contattare il titolare del trattamento:
               </p>
               <p className="text-body">
                 Email: <a href="mailto:emmecol@mariocolombo.it" className="text-primary hover:underline">emmecol@mariocolombo.it</a><br />
@@ -126,7 +126,7 @@ export default function PrivacyPolicyPage() {
             <section>
               <h2 className="heading-3 mb-4">9. Diritto di Reclamo</h2>
               <p className="text-body">
-                L&apos;interessato ha diritto di presentare un reclamo al Garante per la Protezione dei Dati Personali 
+                L'interessato ha diritto di presentare un reclamo al Garante per la Protezione dei Dati Personali 
                 se ritiene che il trattamento dei propri dati violi la normativa vigente.
               </p>
               <p className="text-body">
@@ -140,7 +140,7 @@ export default function PrivacyPolicyPage() {
             <section>
               <h2 className="heading-3 mb-4">10. Cookie</h2>
               <p className="text-body">
-                Per informazioni dettagliate sull&apos;utilizzo dei cookie, consulta la{' '}
+                Per informazioni dettagliate sull'utilizzo dei cookie, consulta la{' '}
                 <Link href="/cookie-policy" className="text-primary hover:underline">Cookie Policy</Link>.
               </p>
             </section>

@@ -154,7 +154,7 @@ export default function ContactForm() {
           >
             <AlertCircle className="w-5 h-5 text-error flex-shrink-0 mt-0.5" />
             <div>
-              <p className="text-error font-semibold">Errore nell&apos;invio</p>
+              <p className="text-error font-semibold">Errore nell'invio</p>
               <p className="text-sm text-text-muted">Si è verificato un errore. Riprova o contattaci telefonicamente.</p>
             </div>
           </motion.div>
@@ -268,7 +268,7 @@ export default function ContactForm() {
             id="privacy"
             type="checkbox"
             {...register('privacy', {
-              required: 'È necessario accettare l&apos;informativa privacy',
+              required: "È necessario accettare l'informativa privacy",
             })}
             className="mt-1 mr-3 w-5 h-5 text-primary focus:ring-primary"
           />

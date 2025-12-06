@@ -36,9 +36,9 @@ export default function Card({
   }
 
   const paddingClasses = {
-    sm: 'p-4',
-    md: 'p-6',
-    lg: 'p-8',
+    sm: 'p-4 sm:p-5',
+    md: 'p-5 sm:p-6 md:p-8',
+    lg: 'p-6 sm:p-8 md:p-10 lg:p-12',
   }
 
   const hoverProps = hover && !prefersReducedMotion
@@ -112,7 +112,7 @@ export default function Card({
       )}
 
       {title && (
-        <h3 className="text-xl font-serif font-semibold text-gradient-primary mb-4">
+        <h3 className="text-lg sm:text-xl md:text-2xl font-serif font-semibold text-gradient-primary mb-3 sm:mb-4">
           {title}
         </h3>
       )}

@@ -49,9 +49,9 @@ export default function NoteLegaliPage() {
                 tuttavia:
               </p>
               <ul className="list-disc list-inside space-y-2 text-body">
-                <li>Non garantisce la completezza, l&apos;accuratezza o l&apos;attualità delle informazioni</li>
+                <li>Non garantisce la completezza, l'accuratezza o l'attualità delle informazioni</li>
                 <li>Non è responsabile per eventuali errori o omissioni nel contenuto</li>
-                <li>Non è responsabile per danni derivanti dall&apos;uso o dall&apos;impossibilità di usare il sito</li>
+                <li>Non è responsabile per danni derivanti dall'uso o dall'impossibilità di usare il sito</li>
                 <li>Non garantisce che il sito sia privo di virus o altri elementi dannosi</li>
               </ul>
             </section>
@@ -61,7 +61,7 @@ export default function NoteLegaliPage() {
               <p className="text-body">
                 Il sito può contenere link a siti web esterni. Il titolare non è responsabile per il 
                 contenuto, le politiche sulla privacy o le pratiche di tali siti esterni. Si consiglia 
-                di leggere le condizioni d&apos;uso e le privacy policy dei siti visitati.
+                di leggere le condizioni d'uso e le privacy policy dei siti visitati.
               </p>
             </section>
 
@@ -73,7 +73,7 @@ export default function NoteLegaliPage() {
                 copyright e sulla proprietà intellettuale.
               </p>
               <p className="text-body mt-4">
-                È vietata la riproduzione, la distribuzione o l&apos;utilizzo non autorizzato dei contenuti 
+                È vietata la riproduzione, la distribuzione o l'utilizzo non autorizzato dei contenuti 
                 senza il consenso scritto del titolare.
               </p>
             </section>

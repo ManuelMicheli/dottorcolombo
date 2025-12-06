@@ -17,9 +17,9 @@ export default function CookiePolicyPage() {
             <section>
               <h2 className="heading-3 mb-4">Cosa sono i Cookie</h2>
               <p className="text-body">
-                I cookie sono piccoli file di testo che vengono memorizzati sul dispositivo dell&apos;utente 
+                I cookie sono piccoli file di testo che vengono memorizzati sul dispositivo dell'utente 
                 quando visita un sito web. I cookie permettono al sito di ricordare le azioni e le 
-                preferenze dell&apos;utente per un determinato periodo di tempo.
+                preferenze dell'utente per un determinato periodo di tempo.
               </p>
             </section>
 
@@ -49,7 +49,7 @@ export default function CookiePolicyPage() {
                   <li>Dati raccolti in forma anonimizzata</li>
                 </ul>
                 <p className="text-body mt-3">
-                  <strong>Nota:</strong> Questi cookie richiedono il consenso dell&apos;utente e possono essere 
+                  <strong>Nota:</strong> Questi cookie richiedono il consenso dell'utente e possono essere 
                   disattivati tramite il banner cookie.
                 </p>
               </div>
@@ -61,7 +61,7 @@ export default function CookiePolicyPage() {
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-body">
                   <li>Google Maps: per la visualizzazione delle mappe</li>
-                  <li>Google Analytics: per l&apos;analisi del traffico (se attivo)</li>
+                  <li>Google Analytics: per l'analisi del traffico (se attivo)</li>
                 </ul>
               </div>
             </section>
@@ -69,7 +69,7 @@ export default function CookiePolicyPage() {
             <section>
               <h2 className="heading-3 mb-4">Gestione dei Cookie</h2>
               <p className="text-body mb-4">
-                L&apos;utente può gestire le preferenze sui cookie in diversi modi:
+                L'utente può gestire le preferenze sui cookie in diversi modi:
               </p>
               <ul className="list-disc list-inside space-y-2 text-body">
                 <li>Tramite il banner cookie visualizzato al primo accesso</li>

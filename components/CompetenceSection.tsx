@@ -101,7 +101,7 @@ export default function CompetenceSection() {
       <div className="container-custom relative z-10">
         {/* Section Title */}
         <motion.h2
-          className="text-4xl md:text-5xl font-serif font-bold text-center mb-20 tracking-wide"
+          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-center mb-12 sm:mb-16 md:mb-20 tracking-wide px-4"
           style={{
             color: 'var(--mc-primary)',
             letterSpacing: '0.02em',
@@ -119,7 +119,7 @@ export default function CompetenceSection() {
 
         {/* Cards Grid */}
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6 md:gap-8 max-w-7xl mx-auto px-4 sm:px-0"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true, margin: '-100px' }}

@@ -153,6 +153,11 @@
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 
+  /* Section Padding - Responsive */
+  .section-padding {
+    @apply py-12 sm:py-16 md:py-20 lg:py-24;
+  }
+
   /* Primary CTA Button - Pill shape, primary background */
   .btn-primary {
     @apply bg-primary text-text-inverse px-8 py-3 rounded-full font-semibold text-base transition-all duration-300 hover:bg-primary-light hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2;
@@ -166,7 +171,7 @@
 
   /* Secondary CTA Button - Outlined, primary text */
   .btn-secondary {
-    @apply bg-transparent border-2 border-primary text-primary px-8 py-3 rounded-full font-semibold text-base transition-all duration-300 hover:bg-primary hover:text-text-inverse focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2;
+    @apply bg-transparent border-2 border-primary text-primary px-6 sm:px-8 py-2.5 sm:py-3 rounded-full font-semibold text-sm sm:text-base transition-all duration-300 hover:bg-primary hover:text-text-inverse focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 active:scale-95;
     border-color: var(--mc-primary);
     color: var(--mc-primary);
   }
@@ -196,7 +201,7 @@
 
   /* Section Variants */
   .section-padding {
-    @apply py-16 md:py-24;
+    @apply py-12 sm:py-16 md:py-20 lg:py-24;
   }
 
   .section-light {
@@ -399,17 +404,17 @@
 
   /* Typography */
   .heading-1 {
-    @apply text-4xl md:text-5xl lg:text-6xl font-bold text-text-main mb-4;
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-text-main mb-4 sm:mb-6;
     color: var(--mc-text-main);
   }
 
   .heading-2 {
-    @apply text-3xl md:text-4xl font-semibold text-text-main mb-6;
+    @apply text-2xl sm:text-3xl md:text-4xl font-semibold text-text-main mb-6 sm:mb-8;
     color: var(--mc-text-main);
   }
 
   .heading-3 {
-    @apply text-2xl md:text-3xl font-semibold text-text-main mb-4;
+    @apply text-xl sm:text-2xl md:text-3xl font-semibold text-text-main mb-4 sm:mb-6;
     color: var(--mc-text-main);
   }
 

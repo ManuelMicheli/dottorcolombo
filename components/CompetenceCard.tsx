@@ -58,7 +58,7 @@ export default function CompetenceCard({
         className={`
           relative bg-white/80 backdrop-blur-md
           border border-primary/10
-          rounded-2xl p-8
+          rounded-xl sm:rounded-2xl p-6 sm:p-8
           cursor-pointer
           transition-all duration-300 ease-in-out
           ${isMobile ? 'touch-manipulation' : ''}

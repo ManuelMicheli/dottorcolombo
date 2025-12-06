@@ -34,10 +34,10 @@ export default function CookieBanner() {
             <Cookie className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
             <div className="text-sm text-neutral-dark">
               <p className="mb-1">
-                Questo sito utilizza cookie tecnici necessari per il funzionamento e cookie analitici per migliorare l&apos;esperienza utente.
+                Questo sito utilizza cookie tecnici necessari per il funzionamento e cookie analitici per migliorare l'esperienza utente.
               </p>
               <p>
-                Continuando a navigare, accetti l&apos;utilizzo dei cookie.{' '}
+                Continuando a navigare, accetti l'utilizzo dei cookie.{' '}
                 <Link
                   href="/cookie-policy"
                   className="text-primary hover:underline font-semibold"
